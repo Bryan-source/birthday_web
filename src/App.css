@@ -1,10 +1,10 @@
 .App {
+  background-color: #282c34;
   text-align: center;
 }
 
 .App-logo {
   height: 100vmin;
-  
 }
 
 .App-image {
@@ -12,8 +12,16 @@
 }
 
 .App .maps {
-  background-color: #282c34
+  border-radius: 40px;
 }
+
+.App iframe {
+  border-radius: 20px;
+  width:95%;
+  height:600; 
+  
+}
+
 
 /* video::-webkit-media-controls {
   display: none;
@@ -26,8 +34,22 @@
 
 }
 
+@media (min-width: 480px) {
+  .App iframe {
+    width:480;
+    height:200; 
+  }
+}
+
+@media (min-width: 768px) {
+  .App iframe {
+    width:480;
+    height:200; 
+  }
+}
+
 .App-header {
-  background-color: #282c34;
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -38,7 +60,6 @@
 }
 
 .App-footer {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -46,8 +67,5 @@
   justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
 
